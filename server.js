@@ -10,7 +10,7 @@ var Note = require("./models/Note.js");
 var Article = require("./models/Article.js");
 
 // Scraping tools
-// var request = require("request");
+var request = require("request");
 var axios = require("axios");
 var cheerio = require("cheerio");
 
