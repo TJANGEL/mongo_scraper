@@ -1,8 +1,28 @@
 body {
     background-image: url("/assets/images/newspaper-editorials.jpg");
-    padding-top: 70px;
+    padding-top: 80px;
     font-family: "Assistant", sans-serif;
 }
+
+/* navbar */
+.navbar {
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-family: "Audiowide", cursive;
+  font-size: 30px;
+}
+
+#saved {
+  
+}
+
+#scrape {
+  margin: 8px 0px;
+}
+
+/*  */
 
 .deleteNote {
 	display: inline-block;
@@ -11,10 +31,6 @@ body {
 .previousNotes {
     display: inline-block;
     width: 90%
-}
-
-#scrape {
-    margin: 8px 0px;
 }
 
 .copyright {
@@ -37,7 +53,8 @@ body {
   font-size: 18px;
 }
 
-#saved {
+
+#savedArticles {
   font-family: "Audiowide", cursive;
   color: rgb(230, 223, 223);
   font-size: 50px;
@@ -47,6 +64,25 @@ body {
   background: slategray;
   margin-bottom: 0px;
 }
+
+/* buttons */
+.read,
+.addNote {
+  margin-right: 5px;
+}
+
+.read,
+.addNote,
+.delete,
+.save {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* .title {
+    font-family: "Audiowide", cursive;
+  font-size: 90px;
+} */
 
 /* body {
   font-family: "Assistant", sans-serif;
@@ -129,7 +165,7 @@ div.col-md-12 {
 } */
 
 /* footer */
-/* .footer {
+.footer {
   text-align: center;
   font-size: 20px;
   color: lightgray;
