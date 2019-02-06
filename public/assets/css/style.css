@@ -1,6 +1,8 @@
 body {
     background-image: url("/assets/images/newspaper-editorials.jpg");
     padding-top: 70px;
+    font-family: "Assistant", sans-serif;
+
 }
 
 .deleteNote {
@@ -16,6 +18,101 @@ body {
     margin: 8px 0px;
 }
 
-.read:hover {
-    text-decoration: none;
+/* body {
+  font-family: "Assistant", sans-serif;
+  background: slategray;
 }
+
+.jumbotron {
+  padding-bottom: 50px;
+  background-image: url("../img/news_background2.png");
+}
+
+div.col-md-12 {
+  margin-bottom: 230px;
+}
+
+.jumbotron h1 {
+  font-family: "Audiowide", cursive;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  color: rgb(230, 223, 223);
+  font-size: 80px;
+  padding-bottom: 20px;
+}
+
+.card {
+  opacity: 0.85;
+  color: rgba(255, 255, 255, 0.741);
+  background-color: rgba(14, 1, 1, 0.517);
+  margin: 15px;
+}
+
+#saved {
+  font-family: "Audiowide", cursive;
+  color: rgb(230, 223, 223);
+  font-size: 60px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  background: slategray;
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+  font-family: "Audiowide", cursive;
+  font-size: 35px;
+}
+
+#articles {
+  display: inline-block;
+  overflow: auto;
+  width: 60%;
+  height: 700px;
+}
+
+/* Buttons */
+#saved-btn {
+  color: rgb(230, 223, 223);
+}
+
+#saved-btn:hover,
+#home-btn:hover,
+#scrape-btn:hover {
+  color: darkcyan;
+}
+
+#scrape-btn:hover {
+  color: darkcyan;
+  background: rgb(230, 223, 223);
+}
+
+#delete-btn:hover {
+  color: white;
+}
+
+.card-link {
+  color: rgba(255, 255, 255, 0.741);
+}
+
+.card-link:hover {
+  color: white;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  font-size: 20px;
+  color: lightgray;
+}
+
+.github {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* modal */
+.close {
+  text-align: right;
+  margin-right: 5px;
+} */
