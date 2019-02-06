@@ -15,3 +15,7 @@ body {
 #scrape {
     margin: 8px 0px;
 }
+
+.read:hover {
+    text-decoration: none;
+}
