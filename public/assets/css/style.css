@@ -7,8 +7,6 @@ body {
 /* navbar */
 .navbar {
   padding: 10px;
-  /* background: salmon; */
-  /* background-image: url("/assets/images/news_background.png"); */
 }
 
 .navbar-brand {
@@ -76,91 +74,6 @@ body {
   font-size: 16px;
 }
 
-/* .title {
-    font-family: "Audiowide", cursive;
-  font-size: 90px;
-} */
-
-/* body {
-  font-family: "Assistant", sans-serif;
-  background: slategray;
-}
-
-.jumbotron {
-  padding-bottom: 50px;
-  background-image: url("../img/news_background2.png");
-}
-
-div.col-md-12 {
-  margin-bottom: 230px;
-}
-
-.jumbotron h1 {
-  font-family: "Audiowide", cursive;
-  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-  color: rgb(230, 223, 223);
-  font-size: 80px;
-  padding-bottom: 20px;
-}
-
-.card {
-  opacity: 0.85;
-  color: rgba(255, 255, 255, 0.741);
-  background-color: rgba(14, 1, 1, 0.517);
-  margin: 15px;
-}
-
-#saved {
-  font-family: "Audiowide", cursive;
-  color: rgb(230, 223, 223);
-  font-size: 60px;
-  text-align: center;
-  padding: 20px;
-  border-radius: 5px;
-  background: slategray;
-  margin-bottom: 0px;
-}
-
-.navbar-brand {
-  font-family: "Audiowide", cursive;
-  font-size: 35px;
-}
-
-#articles {
-  display: inline-block;
-  overflow: auto;
-  width: 60%;
-  height: 700px;
-}
-
-/* Buttons */
-/* #saved-btn {
-  color: rgb(230, 223, 223);
-}
-
-#saved-btn:hover,
-#home-btn:hover,
-#scrape-btn:hover {
-  color: darkcyan;
-}
-
-#scrape-btn:hover {
-  color: darkcyan;
-  background: rgb(230, 223, 223);
-}
-
-#delete-btn:hover {
-  color: white;
-}
-
-.card-link {
-  color: rgba(255, 255, 255, 0.741);
-}
-
-.card-link:hover {
-  color: white;
-} */
-
 /* footer */
 .footer {
   text-align: center;
@@ -171,7 +84,6 @@ div.col-md-12 {
 .copyright {
   color: slategray; 
   font-family: "Audiowide", cursive;
-  /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
   font-size: 24px;
 }
 
