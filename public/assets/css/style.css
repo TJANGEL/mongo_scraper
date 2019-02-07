@@ -16,7 +16,7 @@ body {
 }
 
 .navbar-brand:hover {
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 #saved {
@@ -67,10 +67,6 @@ body {
   color: white;
 }
 
-/* .card-link a {
-  text-decoration: none;
-} */
-
 #savedArticles {
   font-family: "Audiowide", cursive;
   color: rgb(230, 223, 223);
@@ -104,7 +100,7 @@ body {
 }
 
 .copyright {
-  color: slategray; 
+  color: slategray;
   font-family: "Audiowide", cursive;
   font-size: 24px;
 }
@@ -124,10 +120,10 @@ body {
 /* modals */
 
 .deleteNote {
-	display: inline-block;
+  display: inline-block;
 }
 
 .previousNotes {
-    display: inline-block;
-    width: 90%
+  display: inline-block;
+  width: 90%;
 }
