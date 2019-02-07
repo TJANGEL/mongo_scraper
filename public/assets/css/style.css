@@ -15,11 +15,24 @@ body {
 }
 
 #saved {
-  
+  padding: 6px;
+  margin: 8px 0px;
+  margin-right: 5px;
+  color: white;
+}
+
+#saved:hover {
+  color: orange;
+  background: white;
 }
 
 #scrape {
   margin: 8px 0px;
+}
+
+#scrape:hover {
+  color: red;
+  background: white;
 }
 
 /*  */
@@ -31,12 +44,6 @@ body {
 .previousNotes {
     display: inline-block;
     width: 90%
-}
-
-.copyright {
-    color: salmon;  
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-size: 24px;
 }
 
 .panel-heading h4 {
@@ -171,10 +178,23 @@ div.col-md-12 {
   color: lightgray;
 }
 
+.copyright {
+  color: teal; 
+  font-family: "Audiowide", cursive;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-size: 24px;
+}
+
 .github {
   font-size: 40px;
   text-align: center;
   text-decoration: none;
+  color: teal
+}
+
+.github:hover {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /* modal */
