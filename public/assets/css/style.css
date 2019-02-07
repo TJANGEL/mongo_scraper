@@ -28,29 +28,13 @@ body {
   color: white;
 }
 
-#saved:hover {
+/* #saved:hover {
   color: orange;
   background: white;
-}
+} */
 
 #scrape {
   margin: 8px 0px;
-}
-
-#scrape:hover {
-  color: red;
-  background: white;
-}
-
-/*  */
-
-.deleteNote {
-	display: inline-block;
-}
-
-.previousNotes {
-    display: inline-block;
-    width: 90%
 }
 
 /* Cards */
@@ -186,9 +170,9 @@ div.col-md-12 {
 }
 
 .copyright {
-  color: teal; 
+  color: slategray; 
   font-family: "Audiowide", cursive;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
   font-size: 24px;
 }
 
@@ -196,7 +180,7 @@ div.col-md-12 {
   font-size: 40px;
   text-align: center;
   text-decoration: none;
-  color: teal
+  color: slategray;
 }
 
 .github:hover {
@@ -204,8 +188,13 @@ div.col-md-12 {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-/* modal */
-/* .close {
-  text-align: right;
-  margin-right: 5px;
-} */
+/* modals */
+
+.deleteNote {
+	display: inline-block;
+}
+
+.previousNotes {
+    display: inline-block;
+    width: 90%
+}
