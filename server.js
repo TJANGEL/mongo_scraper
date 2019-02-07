@@ -5,12 +5,12 @@ var logger = require("morgan");
 var mongoose = require("mongoose");
 var path = require("path");
 
-// Requiring Note and Article models
+// Models
 var Note = require("./models/Note.js");
 var Article = require("./models/Article.js");
 
 // Scraping tools
-var request = require("request");
+// var request = require("request");
 var axios = require("axios");
 var cheerio = require("cheerio");
 

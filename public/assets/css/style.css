@@ -7,7 +7,7 @@ body {
 /* navbar */
 .navbar {
   padding: 10px;
-  background: salmon;
+  /* background: salmon; */
   /* background-image: url("/assets/images/news_background.png"); */
 }
 
@@ -28,10 +28,9 @@ body {
   color: white;
 }
 
-/* #saved:hover {
-  color: orange;
-  background: white;
-} */
+#saved:hover {
+  background: green;
+}
 
 #scrape {
   margin: 8px 0px;
@@ -166,7 +165,7 @@ div.col-md-12 {
 .footer {
   text-align: center;
   font-size: 20px;
-  background: salmon;
+  background: white;
 }
 
 .copyright {
