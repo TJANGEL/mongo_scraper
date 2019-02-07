@@ -30,8 +30,16 @@ body {
   background: green;
 }
 
-#scrape {
+#scrape,
+#delete-btn {
   margin: 8px 0px;
+  padding: 6px;
+  margin-right: 5px;
+  color: white;
+}
+
+#delete-btn:hover {
+  background: red;
 }
 
 /* Cards */
