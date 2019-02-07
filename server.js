@@ -287,6 +287,18 @@ app.delete("/notes/delete/:note_id/:article_id", function(req, res) {
   });
 });
 
+//////////ROUTE: CLEAR UNSAVED
+app.get("/clear", function(req, res) {
+  Article.remove({ saved: false }, function(err) {
+    if (err) {
+      console.log(err);
+    } else {
+      console.log("removed");
+    }
+  });
+  res.redirect("/");
+});
+
 // Listen on port
 app.listen(port, function() {
   console.log("App running on port " + port);

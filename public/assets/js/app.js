@@ -73,3 +73,14 @@ $(".deleteNote").on("click", function() {
         window.location = "/saved"
     })
 });
+
+//DELETE BUTTON CLEAR UNSAVED
+$("#delete-btn").on("click", function() {
+  $.ajax({
+    method: "GET",
+    url: "/clear"
+  }).done(function(data) {
+    console.log("CLEAR");
+    window.location = "/";
+  });
+});
