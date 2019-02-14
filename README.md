@@ -1,4 +1,4 @@
-# Website_Scraper
+# Tutorialzine.com Scraper
 
 MongoDB web scraper for scraping articles off of https://tutorialzine.com/.
 
@@ -37,7 +37,6 @@ Click [here](https://enigmatic-anchorage-25742.herokuapp.com/) to view heroku de
 - [Mongoose](http://mongoosejs.com/docs/api.html)
 - [Cheerio](https://github.com/cheeriojs/cheerio)
 - [Axios](https://www.npmjs.com/package/axios) - Promise based client
-
 
 ## Authors
 
